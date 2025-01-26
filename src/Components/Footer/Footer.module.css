@@ -1,0 +1,65 @@
+.myFooter{
+background-color: #2C3E50;
+
+
+}
+
+.copyright{
+    color: #f0f8ff;
+    background-color: #1A252F;
+    font-size: 16px;
+
+}
+p, h2 {
+    color:#fff !important;
+}
+.head{
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+}
+
+.icons
+{
+    color: #fff;
+    font-size: 22px;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.row>*{
+    padding-left: 0;
+}
+
+
+
+
+/* small */
+@media (max-width: 576px) { 
+
+    .head {
+        font-size: 24px !important;
+        line-height: 29px !important;
+        font-weight: 400 !important;
+    }
+   
+
+}
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { }
+
+
+
+
+
+
+

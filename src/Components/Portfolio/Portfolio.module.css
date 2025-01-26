@@ -1,0 +1,63 @@
+
+
+
+.galleryCard {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  
+  .galleryCard img {
+    display: block;
+    
+    
+    position: relative; /* Add this line */
+  }
+  
+  .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(45, 179, 148, 0.9);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+    
+    
+    
+  }
+  
+  .galleryCard:hover .cover {
+    opacity: 1;
+  }
+  
+
+  .portfoliosec {
+    font-size: 40px !important;
+    line-height: 35px !important;
+    font-weight: 700;
+  color:#2C3E50 !important;
+}
+.mar{
+  margin: 15px;
+}
+
+
+/* small */
+@media (max-width: 576px) { 
+
+    .portfoliosec {
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700;
+      
+    }
+    .mar{
+      margin: 5px 65px;
+    }
+   
+}
+

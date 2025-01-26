@@ -1,0 +1,22 @@
+
+  .contactsec {
+    font-size: 40px !important;
+    line-height: 35px !important;
+    font-weight: 700;
+  color:#2C3E50 !important;
+}
+
+
+
+/* small */
+@media (max-width: 576px) { 
+
+    .contactsec {
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700;
+      
+    }
+   
+  
+  }

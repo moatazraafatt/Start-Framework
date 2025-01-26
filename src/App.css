@@ -1,0 +1,4 @@
+input:focus {
+    box-shadow: none !important; /* Remove Bootstrap's focus shadow */
+  }
+  

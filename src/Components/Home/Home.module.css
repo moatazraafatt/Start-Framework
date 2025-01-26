@@ -1,0 +1,21 @@
+.home{
+    background-color: #1ABC9C;
+    height: 80vh;
+}
+h2{
+    font-size: 40px;
+}
+
+.profilepic{
+    width: 250ox;
+}
+
+/* small */
+@media (max-width: 576px) { 
+
+    .profilepic{
+        width: 150px ;
+    }
+   
+  
+  }
